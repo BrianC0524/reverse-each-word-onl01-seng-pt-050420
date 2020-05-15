@@ -22,5 +22,7 @@ def reverse_each_word(sentence)
     
   end
   
+  array.join(" ")
+  
   
 end
