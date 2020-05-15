@@ -6,11 +6,11 @@ def reverse_each_word(sentence)
   
   array = sentence.split
   
-  r_array = []
+  #r_array = []
   
   array.each do |letter|
     
-    r_array << letter.reverse
+    array << letter.reverse
     
   end
   
