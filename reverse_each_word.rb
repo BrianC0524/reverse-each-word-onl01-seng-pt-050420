@@ -9,5 +9,5 @@ def reverse_each_word(sentence)
   r_array = []
   
   array.each { |letter| r_array << "#{letter}".reverse }
-  r_ array
+  r_array
 end
