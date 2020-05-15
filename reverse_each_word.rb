@@ -8,7 +8,7 @@ def reverse_each_word(sentence)
   
   r_array = []
   
-  join = array.map do |letter| 
+  array.map do |letter| 
     r_array << letter.reverse
   end
   puts r_array.join(" ")
