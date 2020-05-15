@@ -8,7 +8,7 @@ def reverse_each_word(sentence)
   
   r_array = []
   
-  array.collect do |letter|
+  array.each do |letter|
     
     r_array << letter.reverse
     
