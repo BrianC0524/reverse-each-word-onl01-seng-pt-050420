@@ -4,8 +4,10 @@
 
 def reverse_each_word(sentence)
   
-  string_to_array = "#{sentence}".split
+  array = "#{sentence}".split
   
-  string_to_array.each { |letter| puts "#{letter}".join(" ") }.reverse
+  r_array
+  
+  string_to_array.each { |letter| puts "#{letter}".reverse }.reverse
   string_to_array
 end
